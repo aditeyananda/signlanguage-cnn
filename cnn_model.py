@@ -69,9 +69,9 @@ model = classifier.fit_generator(
         validation_steps = 6500
       )
 
-'''#Saving the model
+#Saving the model
 import h5py
-classifier.save('Trained_model.h5')'''
+classifier.save('Trained_model.h5')
 
 print(model.history.keys())
 import matplotlib.pyplot as plt
